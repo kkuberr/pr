@@ -1,6 +1,7 @@
 #include "func.h"
 #include <cmath>
 #include <algorithm>
+#include <iostream>
 using namespace std;
 
 const double EPS = 1e-5;
