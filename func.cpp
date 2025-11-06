@@ -87,7 +87,7 @@ bool pointOnSquare(Point p, Square s) {
     bool onVertical = (equal(p.x, s.topLeft.x) || equal(p.x, s.topLeft.x + s.side)) &&
                       lessOrEqual(p.y, s.topLeft.y) && greaterOrEqual(p.y, s.topLeft.y - s.side);
     bool onHorizontal = (equal(p.y, s.topLeft.y) || equal(p.y, s.topLeft.y - s.side)) &&
-                        lessOrEqual(p.x, s.topLeft.x + s.side) && greaterOrEqual(p.x, s.topLeft.x);
+                      lessOrEqual(p.x, s.topLeft.x + s.side) && greaterOrEqual(p.x, s.topLeft.x);
     return onVertical || onHorizontal;
 }
 
